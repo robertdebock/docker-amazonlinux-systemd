@@ -14,4 +14,4 @@ RUN yum -y install systemd ; \
     rm -f /lib/systemd/system/anaconda.target.wants/*
 
 VOLUME ["/sys/fs/cgroup"]
-CMD ["/usr/sbin/init"]
+CMD ["/sbin/init"]
