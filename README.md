@@ -11,6 +11,7 @@ This repository has multiple branches that relate to amazonlinux versions.
 |Branch |amazonlinux Version|Docker image tag|
 |-------|-------------------|----------------|
 |master |2                  |latest          |
+|1      |1                  |1               |
 
 Pull strategy
 -------------
