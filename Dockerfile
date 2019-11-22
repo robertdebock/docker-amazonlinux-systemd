@@ -1,4 +1,4 @@
-FROM amazonlinux:2
+FROM amazonlinux
 LABEL maintainer="Robert de Bock"
 ENV container=docker
 
