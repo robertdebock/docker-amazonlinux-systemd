@@ -1,5 +1,7 @@
 FROM amazonlinux
-LABEL maintainer="Robert de Bock"
+
+LABEL maintainer="Robert de Bock <robert@meinit.nl>"
+
 ENV container=docker
 
 RUN yum -y install systemd ; \
