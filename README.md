@@ -3,6 +3,8 @@ Docker Amazon Linux Systemd
 
 This Dockerfile can build containers capable to use systemd.
 
+[![amazonlinux build status](https://img.shields.io/docker/cloud/build/robertdebock/amazonlinux.svg)](https://hub.docker.com/repository/docker/robertdebock/amazonlinux)
+
 Branches
 --------
 
