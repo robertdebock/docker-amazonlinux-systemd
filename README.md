@@ -23,7 +23,7 @@ The different branches are **not** merged, they live as individual branches.
 Manually starting
 -----------------
 
-```
+```bash
 docker run \
   --tty \
   --privileged \

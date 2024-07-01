@@ -1,7 +1,7 @@
 FROM amazonlinux
 
 LABEL maintainer="Robert de Bock <robert@meinit.nl>"
-LABEL build_date="2023-06-13"
+LABEL build_date="2024-07-01"
 
 ENV container=docker
 
@@ -17,4 +17,5 @@ RUN yum -y install systemd ; \
     rm -f /lib/systemd/system/anaconda.target.wants/*
 
 VOLUME ["/sys/fs/cgroup"]
+
 CMD ["/sbin/init"]
