@@ -1,7 +1,7 @@
 FROM amazonlinux
 
 LABEL maintainer="Robert de Bock <robert@meinit.nl>"
-LABEL build_date="2024-07-01"
+LABEL build_date="2025-10-15"
 
 ENV container=docker
 
